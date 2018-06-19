@@ -1,0 +1,172 @@
+/* ===========TAGS=========== */
+body {
+    background: #ddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header {
+    height: 100px;
+}
+h1 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding: 15px;
+    color: #4aaaa5;
+}
+h2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 225px;
+    background: #4aaaa5;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+input {
+    width: 97%;
+}
+textarea {
+    width: 97%;
+    height: 200px;
+}
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #666;
+    margin: 0;
+}
+img {
+    /* margin: 20px; */
+    position: relative;
+}
+/* =========CLASSES======== */
+
+.floatRight {
+    float: right;
+}
+div.relative {
+    border-right: 10px;
+    margin: 10 55 10 15;
+    position: relative;
+    width: 225px;
+    height: 225px;
+    /* border: 3px solid #73AD21; */
+    float: left;
+} 
+
+
+div.absolute {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.banner {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    height: 54px;
+}
+.contactInput {
+    padding: 8px 0px 4px 0px;
+}
+.footerFlair {
+    width: 100%;
+    height: 12px;
+    background: #4aaaa5;
+}
+.fullWidth {
+    width: 100%;
+}
+.gallery {
+    float: left;
+    padding: 30px;
+    border: 30px;
+    margin: 30 30 30 30;
+}
+.picLabel {
+    position: relative;
+    top: 10;
+    width: 225;
+    height: 175;
+}
+/* .banner::after {
+    content: "";
+    display: table;
+    clear: both;
+}  */
+.mainContent {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 0;
+}
+.mainAreaContact {
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    border: 15px;
+}
+.nav {
+    float: right;
+    padding: 18px;
+}
+.Separator {
+    height: 2px;
+    background: #aaa;
+    width: 95%;
+    /* padding 0 15 0 15; */
+}
+h2 span {
+    color: black;
+    font: bold 20px/45px Helvetica, Sans-Serif;
+    /* background: #4aaaa5; */
+    padding: 10px;
+}
+#ribbon {
+    background: white;
+}
+#clickable {
+    margin: 11px;
+}
+#myName{
+    float: left;
+    width: 15%;
+    background: #4aaaa5;
+    padding: 18px;
+    color: white;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+#biography {
+    padding: 20px;
+}
+#bioPic { margin-right: 12px;}
+#image {
+    float: left;
+    padding: 20px;
+}
+#submit {
+    width: 80px;
+    height: 30px;
+    background: #4aaaa5;
+    padding: 10px;
+}
+#copyright {
+    height: 80px;
+    width: 960px;
+    left: 50%;
+    margin-left: 240px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
