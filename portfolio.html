@@ -2,78 +2,50 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Making webpages is easy and fun</title>
 </head>
-
-    <!-- This is the body - the html body -->
-    <body>
-    <header >
-        <!-- A full-width section to span the browser
-        then a div for the name and nav then a div for
-        my name only -->
-        <div class="fullWidth" id="ribbon"> 
-          <section class="banner">
-            <div id="myName">
-                Brett Walker
-            </div>
-            <div class="nav">
-                <a href="contact.html" class="clickable">Contact</a>
-            </div>
-            <div class="nav">
-                <a href="portfolio.html" class="clickable">Portfolio</a>
-            </div>
-            <div class="nav">
-                <a href="index.html" class="clickable">About</a>
-            </div>
-          </section>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="navbar-brand">
+            Brett Walker
         </div>
-    </header>
+        <!--end myName-->
+        <div class="nav-item navbar-text navbar-right mr-3">
+            <span class="">
+                <a href="index.html">About</a>
+            </span>
+            <span class="flex">
+                <a href="portfolio.html">Portfolio</a>
+            </span>
+            <span class="flex">
+                <a href="contact.html">Contact</a>
+            </span>
+            <span class="flex">
+                <a href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </span>
 
-    <!-- This is the main content, spanning the whole screen -->
-    <section class="fullWidth">
-
-        <!-- This is the 960px, center portion of the main content -->
-        <div class="mainContent">
-
-            <h1>Portfolio</h1>
-<!-- TODO - This div needs to be replaced by css -->
-            <div class="Separator">
-                </div>
-                
-            <div class="relative">
-                    <img src="assets/images/gal1.png" />
-                    <div class="absolute">Music</div>
-                </div>
-                <div class="relative">
-                    <img src="assets/images/gal2.png" />           
-                    <div class="absolute">Joy</div>
-                </div>
-                <div class="relative">
-                    <img src="assets/images/gal3.png" />            
-                    <div class="absolute">Ego</div>
-                </div>
-                <div class="relative">
-                    <img src="assets/images/gal4.png" />                
-                    <div class="absolute">Movies</div>
-                </div>
-                <div class="relative">
-                    <img src="assets/images/gal5.png" />                
-                    <div class="absolute">Purpose</div>
-                </div>
         </div>
-    </section>
-    
-<!-- This is the footer - the html footer 
--->
-    <footer>
-            <div class="footerFlair">
+        <!--end nav items-->
+    </nav>
+    <!--end navbar-->
+
+    <div class="container">
+        <!--start portfolio-->
+        <div id="row">
+            <div class="col-xl-12 mx-6">
+                <h1>Portfolio</h1>
             </div>
-            <div id="copyright">
-                    Copyright &copy; This is coding
-                </div>
-    </footer>
-</body>
+        </div>
+        <div id="row">
+
+        </div>
+    </div>
+    </div>
+    <!--end container-->
 
 </html>
