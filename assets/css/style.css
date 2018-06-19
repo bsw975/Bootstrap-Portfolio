@@ -19,6 +19,12 @@ h2 {
     background: #4aaaa5;
     text-align: center;
 }
+h2 span {
+    color: black;
+    font: bold 20px/45px Helvetica, Sans-Serif;
+    /* background: #4aaaa5; */
+    padding: 10px;
+}
 a {
     text-decoration: none;
     color: #666;
@@ -42,8 +48,8 @@ img {
     /* margin: 20px; */
     position: relative;
 }
-/* =========CLASSES======== */
 
+/* =========CLASSES======== */
 .floatRight {
     float: right;
 }
@@ -56,8 +62,6 @@ div.relative {
     /* border: 3px solid #73AD21; */
     float: left;
 } 
-
-
 div.absolute {
     position: absolute;
     top: 150px;
@@ -68,7 +72,6 @@ div.absolute {
     text-align: center;
     padding-top: 10px;
 }
-
 .banner {
     width: 960px;
     margin: 0 auto;
@@ -98,11 +101,6 @@ div.absolute {
     width: 225;
     height: 175;
 }
-/* .banner::after {
-    content: "";
-    display: table;
-    clear: both;
-}  */
 .mainContent {
     width: 960px;
     margin: 0 auto;
@@ -126,15 +124,13 @@ div.absolute {
     width: 95%;
     /* padding 0 15 0 15; */
 }
-h2 span {
-    color: black;
-    font: bold 20px/45px Helvetica, Sans-Serif;
-    /* background: #4aaaa5; */
-    padding: 10px;
-}
-#ribbon {
+.banner
+ {
     background: white;
 }
+
+
+/* ================IDs=============== */
 #clickable {
     margin: 11px;
 }
@@ -150,15 +146,16 @@ h2 span {
     padding: 20px;
 }
 #bioPic { margin-right: 12px;}
-#image {
-    float: left;
-    padding: 20px;
+#galleryRow {
+    width: 100%;
+    height: auto;
+    margin: 12px;
 }
 #submit {
-    width: 80px;
-    height: 30px;
+    /* width: 80px; */
+    /* height: 30px; */
     background: #4aaaa5;
-    padding: 10px;
+    /* padding: 10px; */
 }
 #copyright {
     height: 80px;
